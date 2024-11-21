@@ -26,6 +26,28 @@
         p {
             line-height: 1.6;
         }
+        .subscribe {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .subscribe button {
+            padding: 10px 15px;
+            margin-left: 10px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .subscribe button:hover {
+            background-color: #34495e;
+        }
     </style>
 </head>
 <body>
@@ -51,6 +73,14 @@
         Александр Островский умер 14 июня 1886 года в Москве. Его наследие продолжает жить, и 
         пьесы Островского ставятся на сценах театров по всему миру.
     </p>
+
+    <div class="subscribe">
+        <h2>Подписаться на новости</h2>
+        <form action="#" method="post">
+            <input type="email" placeholder="Ваш email" required>
+            <button type="submit">Подписаться</button>
+        </form>
+    </div>
 </div>
 
 </body>
